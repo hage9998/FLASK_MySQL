@@ -1,0 +1,18 @@
+Flask
+
+export FLASK_APP=hello.py
+flask run
+
+
+Json
+{
+    "query_create": "CREATE TABLE house (name_id INTEGER AUTO_INCREMENT PRIMARY KEY, id BIGINT, date DATE, price integer, grade integer, bedrooms integer, bathrooms integer, floors integer, waterfront integer, yr_built integer, condition_house integer);",
+    "query_insert": "INSERT INTO houses.house (id, date, price, grade, bedrooms, bathrooms, floors, waterfront, yr_built, condition_house) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+    "hostname": "localhost",
+    "login_user": "root",
+    "pass_user": "2311",
+    "databse":"houses"
+}
+    
+
+
